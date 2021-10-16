@@ -216,19 +216,7 @@
         height: calc(2rem + 1px);
       }
     }
-
-    .logo {
-      width: 4.75rem;
-      height: 4.75rem;
-      line-height: 4.75rem;
-
-      .icon {
-        &:before {
-          font-size: 1.75rem;
-        }
-      }
-    }
-
+    
     .content {
       .inner {
         padding: 2.5rem 1rem;
