@@ -25,31 +25,12 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('art')
             }}
           >
-            Work
+            Art
           </button>
         </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
-          </button>
-        </li>
-
         <li>
           <button
             onClick={() => {
@@ -57,6 +38,25 @@ const Header = props => (
             }}
           >
             Blog
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('poetry')
+            }}
+          >
+            Poetry
+          </button>
+        </li>
+
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('contact')
+            }}
+          >
+            Contact
           </button>
         </li>
       </ul>
