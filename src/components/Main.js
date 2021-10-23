@@ -31,9 +31,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
           <p>
             I'm Cece. This is my portfolio. It has less to do with my career and more with my interests and development. 
             By the way, check out my <a href="#blog">blog</a>.
