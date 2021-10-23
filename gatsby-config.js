@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Portfolio',
-    author: 'Hunter Chang',
+    author: 'Cece SP',
     description: 'Based on dimension by HTML5 up!',
   },
   plugins: [
@@ -21,3 +21,8 @@ module.exports = {
     'gatsby-plugin-sass',
   ],
 }
+
+
+
+
+
