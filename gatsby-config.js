@@ -17,11 +17,11 @@ module.exports = {
         display: 'minimal-ui',
          // This path is relative to the root of the site.
       },
-      resolve: `gatsby-source-ghost`,
-      options: {
-        apiUrl: `https://ghost.critically-mia.me`,
-        contentApiKey: `a700141b95c14b1022cb4eb7fa`,
-      }
+      // resolve: `gatsby-source-ghost`,
+      // options: {
+      //   apiUrl: `https://ghost.critically-mia.me`,
+      //   contentApiKey: `a700141b95c14b1022cb4eb7fa`,
+      // }
     },
     'gatsby-plugin-sass',
   ],
