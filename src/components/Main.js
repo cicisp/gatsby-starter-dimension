@@ -64,12 +64,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Blog</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            
-          </p>
+          
+          <iframe src ="ghost.critically-mia.me/ramblings" width="100%" height="500"> </iframe>
           {close}
         </article>
 
