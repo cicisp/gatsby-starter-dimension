@@ -54,6 +54,20 @@ class Main extends React.Component {
                 <div class="text">Frida</div>
               </div>
               </div>
+
+              <div class="container">
+              <img src={pic02} alt="" class = "im" />
+              <div class="middle">
+                <div class="text">Frida</div>
+              </div>
+              </div>
+
+              <div class="container">
+              <img src={pic02} alt="" class = "im" />
+              <div class="middle">
+                <div class="text">Frida</div>
+              </div>
+              </div>
           
           </div>
          </span>
