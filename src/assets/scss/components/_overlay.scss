@@ -1,6 +1,8 @@
 .container {
   position: relative;
   width: 50%;
+  direction: ltr;
+  display: flexbox;
 }
 
 .im {
