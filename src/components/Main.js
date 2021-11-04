@@ -48,8 +48,8 @@ class Main extends React.Component {
           <span className="image main">
             <div class="scrolling-wrapper-flexbox">
               <div class="container">
-              <img src={pic02} alt="" class = "im">
-              <div class="overlay">
+              <img src={pic02} alt="" class = "im" style = "width:100%"/>
+              <div class="middle">
                 <div class="text">Frida</div>
               </div>
             </div>
