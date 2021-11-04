@@ -42,7 +42,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'art' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'scrolling-wrapper-flexbox' }}
+          style={{ display: 'flex'}}
         >
           <h2 className="major">Art</h2>
           <span className="image main">              
