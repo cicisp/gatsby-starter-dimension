@@ -45,9 +45,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Art</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <div class="scrolling-wrapper-flexbox">
+          <div class="container">
+          <img src={pic02} alt="" />
+          <div class="overlay">
+          <div class="text">Frida</div>
+          </div>
+          </div>
+          </div>
           <p>
           
           </p>
@@ -63,7 +68,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Blog</h2>
           
-          <iframe src ="ghost.critically-mia.me/ramblings" width="100%" height="500"> </iframe>
+          <iframe src ="https://ghost.critically-mia.me/ramblings/" width="100%" height="500"> </iframe>
           {close}
         </article>
 
