@@ -42,7 +42,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'art' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
+          style= "width: 150px; height: 150px; line-height: 3em; overflow:scroll; border: thin #000 solid; padding: 5px;"
         >
           <h2 className="major">Art</h2>
           <span className="image main">              
