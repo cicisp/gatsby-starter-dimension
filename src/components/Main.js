@@ -45,30 +45,27 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Art</h2>
+          <span className="image main">              
+
             <div class="scrolling-wrapper-flexbox">
             <div class="container">
-            <span className="image main">              
                <img src={pic02} alt="" class = "im" />
               <div class="middle">
                 <div class="text">Frida</div>
               </div>
-              </span>
 
-              <span className="image main">              
               <img src={pic02} alt="" class = "im" />
               <div class="middle">
                 <div class="text">Frida</div>
               </div>
-              </span>
 
-              <span className="image main">              
               <img src={pic02} alt="" class = "im" />
               <div class="middle">
                 <div class="text">Frida</div>
               </div>
-              </span>
               </div>
           </div>
+          </span>
           <p>
           
           </p>
