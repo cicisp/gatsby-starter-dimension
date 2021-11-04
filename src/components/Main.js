@@ -45,7 +45,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Art</h2>
-          <span className="image main">
             <div class="scrolling-wrapper-flexbox">
               
               <div class="container">
@@ -70,7 +69,6 @@ class Main extends React.Component {
               </div>
           
           </div>
-         </span>
           <p>
           
           </p>
