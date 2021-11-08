@@ -100,7 +100,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Reading List</h2>
           
-           <iframe src = "https://csp.libib.com/" width="100%" height="500" id="my-iframe"> </iframe>
+           <iframe src = "https://csp.libib.com/" width="100%" height="1500" id="my-iframe" sandbox="allow-scripts allow-same-origin"> </iframe>
+           <script>
+            var x = document.getElementById("my-iframe");
+            x.style.backgroundColor = "red";
+            </script>
            {close}
         </article>
 
