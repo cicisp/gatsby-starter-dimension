@@ -42,7 +42,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'art' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'flex'}}
+          style={{ display: 'none'}}
         >
           <h2 className="major">Art</h2>
           <span className="image main">              
@@ -100,7 +100,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Reading List</h2>
           
-          <iframe  src = "https://csp.libib.com" allowtransparency="true" style="background-color:transparent" width="50%" height="500"> </iframe>
+          <iframe  src = "https://csp.libib.com/" width="50%" height="500"> </iframe>
            {close}
         </article>
 
