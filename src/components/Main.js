@@ -92,19 +92,15 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="poetry"
-          className={`${this.props.article === 'poetry' ? 'active' : ''} ${
+          id="reading"
+          className={`${this.props.article === 'reading' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Poetry</h2>
-          <span className="image main">
-            <img src={pic04} alt="" />
-          </span>
-          <p>
-            
-          </p>
+          <h2 className="major">Reading List</h2>
+          
+          <iframe src ="https://csp.libib.com" width="100%" height="500"> </iframe>
           {close}
         </article>
 
