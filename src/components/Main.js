@@ -100,7 +100,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Reading List</h2>
           
-          <iframe  src = "https://csp.libib.com/" width="50%" height="500"> </iframe>
+          <div id="wrapper"><iframe id="scaled-frame"  src = "https://csp.libib.com/" width="100%" height="500"> </iframe> </div>
            {close}
         </article>
 
