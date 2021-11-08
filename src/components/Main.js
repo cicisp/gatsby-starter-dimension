@@ -100,7 +100,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Reading List</h2>
           
-          <iframe src ="https://csp.libib.com" width="100%" height="500"> </iframe>
+          <iframe allowtransparency="true" style="background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;;" src = "https://csp.libib.com" width="100%" height="500"> </iframe>
           {close}
         </article>
 
