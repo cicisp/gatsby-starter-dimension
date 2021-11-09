@@ -2,7 +2,7 @@
   position: relative;
   width: 50%;
   direction: ltr;
-  display: flexbox;
+  display: flex;
 }
 
 .im {
@@ -33,7 +33,7 @@
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: grey;
   color: white;
   font-size: 16px;
   padding: 16px 32px;

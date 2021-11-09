@@ -50,16 +50,16 @@ class Main extends React.Component {
             <div class="scrolling-wrapper-flexbox">
             
             <div class="container">
-               <img src={pic02} alt="" class = "im" />
+               <img src={pic02} alt="" class = "im" style = "width:100%" />
               <div class="middle">
-                <div class="text">Frida</div>
+                <div class="text"> Photography </div>
               </div>
               </div>
 
               <div class="container">
-              <img src={pic02} alt="" class = "im" />
+              <img src={pic02} alt="" class = "im" style = "width:100%" />
               <div class="middle">
-                <div class="text">Frida</div>
+                <div class="text"> Digital Portraits </div>
               </div>
               </div>
 
@@ -103,7 +103,7 @@ class Main extends React.Component {
            <iframe src = "https://csp.libib.com/" width="100%" height="1500" id="my-iframe" sandbox="allow-scripts allow-same-origin"> </iframe>
            <script>
             var x = document.getElementById("my-iframe");
-            x.style.backgroundColor = "red";
+            x.body.background-Color = "grey";
             </script>
            {close}
         </article>
