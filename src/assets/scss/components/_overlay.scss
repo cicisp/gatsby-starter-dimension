@@ -5,7 +5,7 @@
   display: flex;
 }
 
-.im {
+.image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -21,7 +21,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .container:hover .im {
@@ -33,7 +34,7 @@
 }
 
 .text {
-  background-color: grey;
+  background-color: rgb(87, 82, 82);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
