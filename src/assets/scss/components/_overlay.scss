@@ -1,11 +1,11 @@
-.container {
+.img_box {
   position: relative;
   width: 50%;
   direction: ltr;
   display: inline-flexbox
 }
 
-.container image {
+.img_box image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -25,11 +25,11 @@
   text-align: center;
 }
 
-.container:hover .container image {
+.img_box:hover .img_box image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.img_box:hover .middle {
   opacity: 1;
 }
 
