@@ -2,10 +2,10 @@
   position: relative;
   width: 50%;
   direction: ltr;
-  display: flex;
+  display: inline-flexbox
 }
 
-.image {
+.container image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -25,7 +25,7 @@
   text-align: center;
 }
 
-.container:hover .image {
+.container:hover .container image {
   opacity: 0.3;
 }
 
